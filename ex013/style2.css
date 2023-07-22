@@ -1,0 +1,13 @@
+h1{
+    padding: 15px;
+    text-transform: uppercase;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+main p{
+    padding: 3px;
+    line-height: 1.5em;
+    margin-bottom: 18px;
+    background-color: rgba(137, 43, 226, 0.574);
+}

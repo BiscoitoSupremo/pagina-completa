@@ -1,0 +1,365 @@
+/* Reset de estilos e configurações gerais */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik Gemstones', cursive;
+}
+
+/* Estilos do corpo do documento */
+body {
+    height: 100vh;
+    background-color: rgb(68, 20, 114);
+    text-align: center;
+    background-image: url(fundo-de-textura-de-tinta-marmorizada-liquida-pintura-fluida-textura-abstrata-mistura-de-cores-intensas-papel-de-parede.jpg);
+}
+header img{
+    height: 65px;
+    width: 65px;
+    display: block;
+    background-color: rgb(67, 19, 100);
+    border: 1px solid rgba(255, 255, 255, 0.766);
+    border-radius: 45px;
+}
+/* Estilos do cabeçalho */
+header {
+    height: 150px;
+    background-image: url(fundo.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+nav {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    align-items: center;
+}
+
+a {
+    /* Estilos dos links */
+    background-color: rgba(112, 18, 156, 0.751);
+    padding: 5px 10px;
+    border: 4px solid rgba(255, 255, 255, 0.842);
+    color: rgba(240, 248, 255, 0.613);
+    border-radius: 14px;
+    font-style: oblique;
+    text-decoration: dotted;
+    text-align: center;
+    display: block;
+    
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    /* Estilos dos links no cabeçalho */
+    background-color: rgba(112, 18, 156, 0.751);
+    padding: 5px 10px;
+    margin: 0 5px;
+    border: 4px solid rgba(255, 255, 255, 0.842);
+    color: rgba(240, 248, 255, 0.613);
+    border-radius: 14px;
+}
+
+nav a:hover {
+    background-color: rgba(150, 9, 206, 0.9);
+    color: white;
+}
+
+
+/* Estilos para o conteúdo principal (main) */
+main {
+    padding: 20px;
+}
+
+/* Estilos para o título principal com hover */
+main h1 {
+    /* Estilos do título principal */
+    margin: 27px;
+    text-align: center;
+    margin-bottom: 15px;
+    color: rgba(240, 248, 255, 0.503);
+    background-color: #241730;
+    padding: 15px;
+    text-transform: uppercase;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+main h1:hover {
+    background-color: rgba(112, 18, 156, 0.751);
+}
+
+/* Estilos para as imagens da área principal (main) */
+main img {
+    /* Reduzir o tamanho das imagens */
+    max-width: 100%;
+    height: auto;
+    border: 1px double white;
+    border-radius: 15px;
+    margin: 10px 0;
+    transition: transform 0.3s ease;
+}
+
+/* Efeito de zoom nas imagens ao passar o mouse */
+main img:hover {
+    transform: scale(1.05);
+}
+
+/* Estilos para os parágrafos da área principal (main) com hover */
+main p {
+    /* Estilos dos parágrafos da área principal */
+    margin:10px;
+    padding: 3px;
+    line-height: 1.5em;
+    margin-bottom: 18px;
+}
+
+main p:hover {
+    /* Estilos de hover para os parágrafos da área principal */
+    background-color: rgba(155, 35, 202, 0.815);
+    color: rgb(228, 209, 238);
+    transition: transform 0.3s ease;
+    transform: scale(1.05);
+}
+
+
+main::before {
+    left: 0;
+}
+
+main::after {
+    right: 0;
+}
+
+/* Estilos da área principal */
+main {
+    padding: 20px;
+}
+
+main h1 {
+    /* Estilos do título principal */
+    text-align: center;
+    margin-bottom: 15px;
+    color: rgba(240, 248, 255, 0.805);
+    background-color: #241730;
+    padding: 15px;
+    text-transform: uppercase;
+    border: 1px solid rgba(255, 255, 255, 0.313);
+    border-radius: 10px;
+    display: block;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+main img {
+    /* Estilos das imagens da área principal */
+    background-color: rgba(68, 14, 89, 0.686);
+    width: 100%;
+}
+main p {
+    /* Estilos dos parágrafos da área principal */
+    padding: 3px;
+    line-height: 1.5em;
+    margin-bottom: 18px;
+    display: block;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.texto-curioso{
+    color: rgba(228, 213, 234, 0.676);
+    background-color: rgba(64, 14, 75, 0.744);
+    display: block;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+.texto-curioso p{
+    background-color: #24173084;
+    text-align: center;
+
+    
+}
+picture {
+    display: block;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+
+
+/* Estilos do rodapé */
+footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+}
+
+footer p {
+    /* Estilos do texto do rodapé */
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2px 2px;
+    margin: 20px;
+}
+
+footer .logo {
+    /* Estilos da imagem do rodapé */
+    height: 180px;
+    width: 200px;
+    display: block;
+    margin: 29px auto;
+    background-color: rgb(67, 19, 100);
+    border: 5px solid rgba(255, 255, 255, 0.766);
+    border-radius: 45px;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Alinhamento central do texto do rodapé */
+footer p {
+    text-align: center;
+}
+
+.logo {
+    animation: rotate 4s linear infinite;
+}
+/* Restante do CSS permanece igual */
+
+/* Link para a imagem de background */
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/* Restante do CSS permanece igual */
+
+/* Estilos para os blocos de input */
+.input-blocks {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 30px 0;
+
+}
+
+.input-blocks input {
+    width: 30%;
+    margin: 0 10px;
+    padding: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.842);
+    border-radius: 10px;
+}
+
+.input-blocks button{
+    width: 6%;
+    border-radius: 10px;
+}
+
+/* Estilos para o espaço de escrita como um livro */
+.book-space {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.842);
+    border-radius: 10px;
+}
+
+.book-space h2 {
+    text-align: center;
+    color: rgba(240, 248, 255, 0.805);
+}
+
+.book-space p {
+    text-align: center;
+    color: rgba(240, 248, 255, 0.891);
+}
+
+.book-space textarea {
+    width: 100%;
+    min-height: 200px;
+    margin-top: 10px;
+    padding: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.781);
+    border-radius: 10px;
+    resize: vertical;
+    color: rgb(255, 255, 255);
+    background-color: rgba(180, 31, 180, 0.818);
+}
+.livro {
+    background-image: url(livrin.png);
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+
+  }
+  
+
+/* Estilos do rodapé */
+footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+}
+
+footer p {
+    /* Estilos do texto do rodapé */
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2px 2px;
+    margin: 20px;
+}
+
+footer .logo {
+    /* Estilos da imagem do rodapé */
+    height: 180px;
+    width: 200px;
+    display: block;
+    margin: 29px auto;
+    background-color: rgb(67, 19, 100);
+    border: 5px solid rgba(255, 255, 255, 0.766);
+    border-radius: 45px;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Alinhamento central do texto do rodapé */
+footer p {
+    text-align: center;
+}
+
+.logo {
+    animation: rotate 4s linear infinite;
+}
+@media (max-width: 900px){
+    .input-blocks {
+       flex-direction: columns;
+    }
+}
+
